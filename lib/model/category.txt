@@ -1,0 +1,167 @@
+import 'dart:convert';
+import 'package:hive/hive.dart';
+
+part 'category.g.dart';
+
+// List<Categorys> popularcategoryListFromJson(String val) =>
+//     List<Categorys>.from(json
+//         .decode(val)['data']
+//         .map((category) => Categorys.popularCategoryFromJson(category)));
+
+// List<Categorys> categoryListFromJson(String val) =>
+//     List<Categorys>.from(json
+//         .decode(val)['data']
+//         .map((category) => Categorys.categoryFromJson(category)));
+
+// @HiveType(typeId: 99)
+// class Categorys {
+//   @HiveField(0)
+//   final int id;
+//   @HiveField(1)
+//   final String name;
+//   @HiveField(2)
+//   final String image;
+
+//   Categorys({required this.id, required this.name, required this.image});
+
+//   factory Categorys.popularCategoryFromJson(
+//           Map<String, dynamic> data) =>
+//       Categorys(
+//           id: data['id'],
+//           name: data['attributes']['category']['data']['attributes']['name'],
+//           image: data['attributes']['category']['data']['attribute']['image']
+//               ['data']['attribute']['url']);
+
+//   factory Categorys.categoryFromJson(
+//           Map<String, dynamic> data) =>
+//       Categorys(
+//           id: data['id'],
+//           name: data['attributes']['name'],
+//           image: data['attribute']['image']['data']['attribute']['url']);
+// }
+
+// Categorys categorysFromMap(String str) => Categorys.fromMap(json.decode(str));
+
+// String categorysToMap(Categorys data) => json.encode(data.toMap());
+
+// @HiveType(typeId: 1)
+// class Categorys {
+//   @HiveField(1)
+//   List<ResultDatum>? resultData;
+
+//   Categorys({
+//     this.resultData,
+//   });
+
+//   factory Categorys.fromMap(Map<String, dynamic> json) => Categorys(
+//         resultData: json["data"]["resultData"] == null
+//             ? []
+//             : List<ResultDatum>.from(
+//                 json["data"]["resultData"]!.map((x) => ResultDatum.fromMap(x))),
+//       );
+
+//   Map<String, dynamic> toMap() => {
+//         "resultData": resultData == null
+//             ? []
+//             : List<dynamic>.from(resultData!.map((x) => x.toMap())),
+//       };
+// }
+
+// @HiveType(typeId: 2)
+// class ResultDatum {
+//   @HiveField(1)
+//   String? id;
+//   @HiveField(2)
+//   int? sort;
+//   @HiveField(3)
+//   String? name;
+//   @HiveField(4)
+//   String? imageName;
+//   @HiveField(5)
+//   String? nameTh;
+//   @HiveField(6)
+//   String? content;
+//   @HiveField(7)
+//   String? contentTh;
+//   @HiveField(8)
+//   bool? isActive;
+//   @HiveField(9)
+//   bool? isDelete;
+//   @HiveField(10)
+//   DateTime? createDate;
+//   @HiveField(11)
+//   String? createBy;
+//   @HiveField(12)
+//   DateTime? updateDate;
+//   @HiveField(13)
+//   String? updateBy;
+//   @HiveField(14)
+//   DateTime? deleteDate;
+//   @HiveField(15)
+//   String? deleteBy;
+
+//   ResultDatum({
+//     this.id,
+//     this.sort,
+//     this.name,
+//     this.imageName,
+//     this.nameTh,
+//     this.content,
+//     this.contentTh,
+//     this.isActive,
+//     this.isDelete,
+//     this.createDate,
+//     this.createBy,
+//     this.updateDate,
+//     this.updateBy,
+//     this.deleteDate,
+//     this.deleteBy,
+//   });
+
+//   factory ResultDatum.fromMap(Map<String, dynamic> json) => ResultDatum(
+//         id: json["id"],
+//         sort: json["sort"],
+//         name: json["name"],
+//         imageName: json["imageName"],
+//         nameTh: json["nameTh"],
+//         content: json["content"],
+//         contentTh: json["contentTh"],
+//         isActive: json["isActive"],
+//         isDelete: json["isDelete"],
+//         createDate: json["createDate"] == null
+//             ? null
+//             : DateTime.parse(json["createDate"]),
+//         createBy: json["createBy"],
+//         updateDate: json["updateDate"] == null
+//             ? null
+//             : DateTime.parse(json["updateDate"]),
+//         updateBy: json["updateBy"],
+//         deleteDate: json["deleteDate"] == null
+//             ? null
+//             : DateTime.parse(json["deleteDate"]),
+//         deleteBy: json["deleteBy"],
+//       );
+
+//   Map<String, dynamic> toMap() => {
+//         "id": id,
+//         "sort": sort,
+//         "name": name,
+//         "imageName": imageName,
+//         "nameTh": nameTh,
+//         "content": content,
+//         "contentTh": contentTh,
+//         "isActive": isActive,
+//         "isDelete": isDelete,
+//         "createDate": createDate?.toIso8601String(),
+//         "createBy": createBy,
+//         "updateDate": updateDate?.toIso8601String(),
+//         "updateBy": updateBy,
+//         "deleteDate": deleteDate?.toIso8601String(),
+//         "deleteBy": deleteBy,
+//       };
+// }
+// List<Categorys> categoryListFromJson(String json) {
+//   final List<dynamic> data = jsonDecode(json);
+//   return data.map((e) => Categorys.fromMap(e)).toList();
+// }
+
