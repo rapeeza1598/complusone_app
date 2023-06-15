@@ -4,7 +4,7 @@ import 'package:app_ecommerce/const.dart';
 
 class RemoteProjectService {
   var client = http.Client();
-  var remoteUrl = '$baseUrl/Project';
+  var remoteUrl = '$baseUrl/Project?IsActive=true';
 
   Future<dynamic> get(String token) async {
     var response = await client.get(

@@ -4,7 +4,7 @@ import 'package:app_ecommerce/const.dart';
 
 class RemoteCategoryService {
   var client = http.Client();
-  var remoteUrl = '$baseUrl/Category';
+  var remoteUrl = '$baseUrl/Category?IsActive=true';
 
   Future<dynamic> get(String token) async {
     var response = await client.get(

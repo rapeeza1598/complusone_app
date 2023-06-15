@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class RemotePopularProduct {
   var client = http.Client();
-  var remoteUrl = '$baseUrl/Product';
+  var remoteUrl = '$baseUrl/Product?IsActive=true';
 
   Future<dynamic> get(String token) async {
     var response = await client.get(

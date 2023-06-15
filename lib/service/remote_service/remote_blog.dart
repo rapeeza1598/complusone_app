@@ -4,7 +4,7 @@ import 'package:app_ecommerce/const.dart';
 
 class RemoteBlogService {
   var client = http.Client();
-  var remoteUrl = '$baseUrl/News';
+  var remoteUrl = '$baseUrl/News?IsActive=true';
 
   Future<dynamic> get(String token) async {
     var response = await client.get(

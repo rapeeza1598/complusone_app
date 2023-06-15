@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class RemoteBannerService {
   var client = http.Client();
-  var remoteUrl = '$baseUrl/Banner';
+  var remoteUrl = '$baseUrl/Banner?IsActive=true';
 
   Future<dynamic> get(String token) async {
     var response = await client.get(
