@@ -1,9 +1,9 @@
-import 'package:app_ecommerce/view/category_details/category_details_screen.dart';
+import 'package:complusone_app/view/category_details/category_details_screen.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:app_ecommerce/const.dart';
-import 'package:app_ecommerce/model/category.dart';
+import 'package:complusone_app/const.dart';
+import 'package:complusone_app/model/category.dart';
 import 'package:shimmer/shimmer.dart';
 
 class PopularCategoryCard extends StatelessWidget {

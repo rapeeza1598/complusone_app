@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:app_ecommerce/service/local_service/local_auth_service.dart';
-import 'package:app_ecommerce/service/remote_service/remote_auth_service.dart';
+import 'package:complusone_app/service/local_service/local_auth_service.dart';
+import 'package:complusone_app/service/remote_service/remote_auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -74,7 +74,6 @@ class AuthController extends GetxController {
           EasyLoading.showSuccess("Welcome to ComplusOne!");
           //go to Dashboard screen
           Navigator.pushNamed(Get.overlayContext!, "/dashboard");
-          
         } else {
           EasyLoading.showError('Something wrong. Try again!!!');
         }

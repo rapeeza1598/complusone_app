@@ -1,6 +1,6 @@
-import 'package:app_ecommerce/const.dart';
-import 'package:app_ecommerce/model/product.dart';
-import 'package:app_ecommerce/view/product_details/product_details_screen.dart';
+import 'package:complusone_app/const.dart';
+import 'package:complusone_app/model/product.dart';
+import 'package:complusone_app/view/product_details/product_details_screen.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
@@ -95,8 +95,8 @@ class ProductCard extends StatelessWidget {
                       for (var i = 0; i < product.productTag.length; i++)
                         Text(
                           product.productTag[i],
-                          style: const TextStyle(
-                              fontSize: 12, color: Colors.grey),
+                          style:
+                              const TextStyle(fontSize: 12, color: Colors.grey),
                         ),
                       // Text(
                       //   '\$${product.productTag}',

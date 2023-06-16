@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "app_ecommerce" "\0"
+            VALUE "FileDescription", "complusone_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "app_ecommerce" "\0"
+            VALUE "InternalName", "complusone_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "app_ecommerce.exe" "\0"
-            VALUE "ProductName", "app_ecommerce" "\0"
+            VALUE "OriginalFilename", "complusone_app.exe" "\0"
+            VALUE "ProductName", "complusone_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

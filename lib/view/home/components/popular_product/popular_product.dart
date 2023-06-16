@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:app_ecommerce/view/home/components/popular_product/popular_product_card.dart';
+import 'package:complusone_app/view/home/components/popular_product/popular_product_card.dart';
 
 import '../../../../model/product.dart';
 
 class PopularProduct extends StatelessWidget {
   final List<Product> popularProducts;
-  const PopularProduct({Key? key, required this.popularProducts}) : super(key: key);
+  const PopularProduct({Key? key, required this.popularProducts})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,8 @@ class PopularProduct extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           physics: const BouncingScrollPhysics(),
           itemCount: popularProducts.length,
-          itemBuilder: (context, index) => PopularProductCard(product: popularProducts[index])),
+          itemBuilder: (context, index) =>
+              PopularProductCard(product: popularProducts[index])),
     );
   }
 }

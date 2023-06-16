@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/controller/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/cupertino.dart';
@@ -34,8 +34,7 @@ class BlogScreen extends StatelessWidget {
                     return const BlogLoadingGrid();
                   } else {
                     if (blogController.blogList.isNotEmpty) {
-                      return BlogGrid(
-                          blog: blogController.blogList);
+                      return BlogGrid(blog: blogController.blogList);
                     } else {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.center,

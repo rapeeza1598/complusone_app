@@ -1,7 +1,6 @@
-import 'package:app_ecommerce/view/home/components/popular_product/popular_product_loading_card.dart';
+import 'package:complusone_app/view/home/components/popular_product/popular_product_loading_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 
 class PopularProductLoading extends StatelessWidget {
   const PopularProductLoading({Key? key}) : super(key: key);

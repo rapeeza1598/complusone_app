@@ -1,11 +1,10 @@
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../../model/category.dart';
 import '../../category_details/category_details_screen.dart';
-
 
 class CategoryCard extends StatelessWidget {
   final Categorys category;

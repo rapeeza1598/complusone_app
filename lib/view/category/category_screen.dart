@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/controller/controller.dart';
 
 import 'components/category_grid.dart';
 import 'components/category_loading_grid.dart';

@@ -1,6 +1,6 @@
 {
-    "name": "app_ecommerce",
-    "short_name": "app_ecommerce",
+    "name": "complusone_app",
+    "short_name": "complusone_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

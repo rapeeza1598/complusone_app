@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/view/category/category_screen.dart';
+import 'package:complusone_app/view/category/category_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../blog/blog_screen.dart';

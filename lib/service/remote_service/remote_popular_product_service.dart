@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
 
@@ -11,8 +11,7 @@ class RemotePopularProduct {
       Uri.parse(remoteUrl),
       headers: {
         "Content-Type": "application/json",
-        "Authorization":
-            "Bearer $token"
+        "Authorization": "Bearer $token"
       },
     );
     return response;

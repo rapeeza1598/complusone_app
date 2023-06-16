@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/view/home/components/project/project_card.dart';
+import 'package:complusone_app/view/home/components/project/project_card.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../model/project.dart';
@@ -16,7 +16,8 @@ class ProjectItem extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           physics: const BouncingScrollPhysics(),
           itemCount: projectItem.length,
-          itemBuilder: (context, index) => ProjectCard(project: projectItem[index])),
+          itemBuilder: (context, index) =>
+              ProjectCard(project: projectItem[index])),
     );
   }
 }

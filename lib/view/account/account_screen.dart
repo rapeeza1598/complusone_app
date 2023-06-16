@@ -1,5 +1,5 @@
-import 'package:app_ecommerce/controller/auth_controller.dart';
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/controller/auth_controller.dart';
+import 'package:complusone_app/controller/controller.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

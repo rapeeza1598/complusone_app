@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/model/contact.dart';
+import 'package:complusone_app/model/contact.dart';
 import 'package:hive/hive.dart';
 
 class LocalBlogService {
@@ -10,7 +10,8 @@ class LocalBlogService {
     _contactBox = await Hive.openBox<Contact>('categories');
   }
 
-  Future<void> assignAllPopularCategories({required List<Contact> popularBlog}) async {
+  Future<void> assignAllPopularCategories(
+      {required List<Contact> popularBlog}) async {
     await _popularContactBox.clear();
     await _popularContactBox.addAll(popularBlog);
   }

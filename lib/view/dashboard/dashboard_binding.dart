@@ -1,9 +1,9 @@
-import 'package:app_ecommerce/controller/auth_controller.dart';
-import 'package:app_ecommerce/controller/category_controller.dart';
-import 'package:app_ecommerce/controller/contact_controller.dart';
-import 'package:app_ecommerce/controller/dashboard_controller.dart';
-import 'package:app_ecommerce/controller/home_controller.dart';
-import 'package:app_ecommerce/controller/product_controller.dart';
+import 'package:complusone_app/controller/auth_controller.dart';
+import 'package:complusone_app/controller/category_controller.dart';
+import 'package:complusone_app/controller/contact_controller.dart';
+import 'package:complusone_app/controller/dashboard_controller.dart';
+import 'package:complusone_app/controller/home_controller.dart';
+import 'package:complusone_app/controller/product_controller.dart';
 import 'package:get/get.dart';
 
 class DashboardBinding extends Bindings {

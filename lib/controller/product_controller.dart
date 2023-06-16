@@ -1,5 +1,5 @@
-import 'package:app_ecommerce/model/product.dart';
-import 'package:app_ecommerce/service/remote_service/remote_product.dart';
+import 'package:complusone_app/model/product.dart';
+import 'package:complusone_app/service/remote_service/remote_product.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
@@ -59,6 +59,7 @@ class ProductController extends GetxController {
       // print(productList.length);
     }
   }
+
   Future<void> pullRefresh() async {
     await Future.delayed(const Duration(seconds: 1));
     getProducts();

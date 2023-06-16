@@ -1,10 +1,10 @@
-import 'package:app_ecommerce/model/ad_banner.dart';
-import 'package:app_ecommerce/model/category.dart';
-import 'package:app_ecommerce/model/product.dart';
-import 'package:app_ecommerce/model/user.dart';
-import 'package:app_ecommerce/route/app_page.dart';
-import 'package:app_ecommerce/route/app_route.dart';
-import 'package:app_ecommerce/theme/app_theme.dart';
+import 'package:complusone_app/model/ad_banner.dart';
+import 'package:complusone_app/model/category.dart';
+import 'package:complusone_app/model/product.dart';
+import 'package:complusone_app/model/user.dart';
+import 'package:complusone_app/route/app_page.dart';
+import 'package:complusone_app/route/app_route.dart';
+import 'package:complusone_app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';

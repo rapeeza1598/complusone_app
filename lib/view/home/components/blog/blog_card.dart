@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../../../model/blog.dart';

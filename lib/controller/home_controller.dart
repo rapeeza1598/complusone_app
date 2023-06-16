@@ -1,11 +1,11 @@
-import 'package:app_ecommerce/model/ad_banner.dart';
-import 'package:app_ecommerce/model/category.dart';
-import 'package:app_ecommerce/model/product.dart';
-import 'package:app_ecommerce/service/local_service/local_ad_banner_service.dart';
-import 'package:app_ecommerce/service/remote_service/remote_bannerservice.dart';
-import 'package:app_ecommerce/service/remote_service/remote_category_service.dart';
-import 'package:app_ecommerce/service/remote_service/remote_popular_product_service.dart';
-import 'package:app_ecommerce/service/remote_service/remote_project.dart';
+import 'package:complusone_app/model/ad_banner.dart';
+import 'package:complusone_app/model/category.dart';
+import 'package:complusone_app/model/product.dart';
+import 'package:complusone_app/service/local_service/local_ad_banner_service.dart';
+import 'package:complusone_app/service/remote_service/remote_bannerservice.dart';
+import 'package:complusone_app/service/remote_service/remote_category_service.dart';
+import 'package:complusone_app/service/remote_service/remote_popular_product_service.dart';
+import 'package:complusone_app/service/remote_service/remote_project.dart';
 import 'package:get/get.dart';
 
 import '../model/blog.dart';
@@ -95,7 +95,7 @@ class HomeController extends GetxController {
     }
   }
 
-  void getBlog() async{
+  void getBlog() async {
     try {
       isBlogLoading(true);
       String? token = LocalAuthService().getToken();

@@ -1,8 +1,8 @@
-import 'package:app_ecommerce/model/project.dart';
+import 'package:complusone_app/model/project.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../../project_details/project_details_screen.dart';

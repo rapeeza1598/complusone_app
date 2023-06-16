@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:app_ecommerce/model/category.dart';
-import 'package:app_ecommerce/service/local_service/local_category_service.dart';
-import 'package:app_ecommerce/service/remote_service/remote_category_service.dart';
+import 'package:complusone_app/model/category.dart';
+import 'package:complusone_app/service/local_service/local_category_service.dart';
+import 'package:complusone_app/service/remote_service/remote_category_service.dart';
 
 import '../service/local_service/local_auth_service.dart';
 

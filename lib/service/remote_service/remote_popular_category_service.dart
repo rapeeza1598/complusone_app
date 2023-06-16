@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 
 class RemotePopularCategoryService {
   var client = http.Client();

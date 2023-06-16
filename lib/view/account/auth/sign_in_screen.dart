@@ -1,10 +1,9 @@
-import 'package:app_ecommerce/controller/controller.dart';
-import 'package:app_ecommerce/extention/string_extention.dart';
+import 'package:complusone_app/extention/string_extention.dart';
 import 'package:flutter/material.dart';
-
 // import '../../../component/input_outline_button.dart';
 import '../../../component/input_text_button.dart';
 import '../../../component/input_text_field.dart';
+import '../../../controller/controller.dart';
 // import 'sign_up_screen.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -40,7 +39,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Spacer(
-                      flex: 2,
+                      flex: 1,
                     ),
                     const Text("Welcome,",
                         style: TextStyle(
@@ -60,7 +59,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     const Center(
                       child: Image(
                           image: AssetImage('assets/Logo - ComplusOne.png'),
-                          height: 200),
+                          height: 100),
                     ),
                     const SizedBox(height: 20),
                     const Text("Email"),

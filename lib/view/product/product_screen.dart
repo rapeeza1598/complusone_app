@@ -1,6 +1,6 @@
-import 'package:app_ecommerce/view/product/components/product_grid.dart';
-import 'package:app_ecommerce/view/product/components/product_loading_grid.dart';
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/view/product/components/product_grid.dart';
+import 'package:complusone_app/view/product/components/product_loading_grid.dart';
+import 'package:complusone_app/controller/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/cupertino.dart';

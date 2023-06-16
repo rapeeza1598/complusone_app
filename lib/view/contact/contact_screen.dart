@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/controller/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/cupertino.dart';
@@ -12,10 +12,10 @@ class ContactScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Contact"),
-        centerTitle: true,
-      ),
+        appBar: AppBar(
+          title: const Text("Contact"),
+          centerTitle: true,
+        ),
         body: SafeArea(
           child: RefreshIndicator(
             onRefresh: () async {

@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:dio/dio.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';

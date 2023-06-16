@@ -1,7 +1,7 @@
-import 'package:app_ecommerce/route/app_route.dart';
-import 'package:app_ecommerce/view/account/auth/sign_in_screen.dart';
-import 'package:app_ecommerce/view/dashboard/dashboard_binding.dart';
-import 'package:app_ecommerce/view/dashboard/dashboard_screen.dart';
+import 'package:complusone_app/route/app_route.dart';
+import 'package:complusone_app/view/account/auth/sign_in_screen.dart';
+import 'package:complusone_app/view/dashboard/dashboard_binding.dart';
+import 'package:complusone_app/view/dashboard/dashboard_screen.dart';
 import 'package:get/get.dart';
 
 class AppPage {

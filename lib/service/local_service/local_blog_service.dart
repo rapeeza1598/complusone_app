@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/model/blog.dart';
+import 'package:complusone_app/model/blog.dart';
 import 'package:hive/hive.dart';
 
 class LocalBlogService {
@@ -10,7 +10,8 @@ class LocalBlogService {
     _blogBox = await Hive.openBox<Blog>('categories');
   }
 
-  Future<void> assignAllPopularCategories({required List<Blog> popularBlog}) async {
+  Future<void> assignAllPopularCategories(
+      {required List<Blog> popularBlog}) async {
     await _popularBlogBox.clear();
     await _popularBlogBox.addAll(popularBlog);
   }

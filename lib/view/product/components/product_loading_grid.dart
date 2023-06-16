@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/view/product/components/product_loading_card.dart';
+import 'package:complusone_app/view/product/components/product_loading_card.dart';
 import 'package:flutter/material.dart';
 
 class ProductLoadingGrid extends StatelessWidget {
@@ -11,12 +11,11 @@ class ProductLoadingGrid extends StatelessWidget {
           maxCrossAxisExtent: 200,
           childAspectRatio: 2 / 3,
           crossAxisSpacing: 10,
-          mainAxisSpacing: 10
-      ),
+          mainAxisSpacing: 10),
       physics: const BouncingScrollPhysics(),
       padding: const EdgeInsets.all(10),
       itemCount: 6,
-      itemBuilder: (context,index) => const ProductLoadingCard(),
+      itemBuilder: (context, index) => const ProductLoadingCard(),
     );
   }
 }

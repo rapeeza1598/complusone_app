@@ -1,13 +1,13 @@
-import 'package:app_ecommerce/model/product.dart';
-import 'package:app_ecommerce/view/account/account_screen.dart';
-import 'package:app_ecommerce/view/category/category_screen.dart';
-import 'package:app_ecommerce/view/home/home_screen.dart';
-import 'package:app_ecommerce/view/product/product_screen.dart';
+import 'package:complusone_app/model/product.dart';
+import 'package:complusone_app/view/account/account_screen.dart';
+import 'package:complusone_app/view/category/category_screen.dart';
+import 'package:complusone_app/view/home/home_screen.dart';
+import 'package:complusone_app/view/product/product_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:get/get.dart';
-import 'package:app_ecommerce/controller/dashboard_controller.dart';
+import 'package:complusone_app/controller/dashboard_controller.dart';
 import 'package:hive/hive.dart';
 
 import '../account/auth/sign_in_screen.dart';

@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/const.dart';
+import 'package:complusone_app/const.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
@@ -95,8 +95,8 @@ class ProjectCard extends StatelessWidget {
                       for (var i = 0; i < project.projectTag.length; i++)
                         Text(
                           project.projectTag[i],
-                          style: const TextStyle(
-                              fontSize: 12, color: Colors.grey),
+                          style:
+                              const TextStyle(fontSize: 12, color: Colors.grey),
                         ),
                       // Text(
                       //   '\$${product.productTag}',

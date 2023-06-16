@@ -1,4 +1,4 @@
-import 'package:app_ecommerce/controller/controller.dart';
+import 'package:complusone_app/controller/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/cupertino.dart';

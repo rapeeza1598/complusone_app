@@ -1,5 +1,5 @@
-import 'package:app_ecommerce/controller/controller.dart';
-import 'package:app_ecommerce/extention/string_extention.dart';
+import 'package:complusone_app/controller/controller.dart';
+import 'package:complusone_app/extention/string_extention.dart';
 import 'package:flutter/material.dart';
 
 import '../../../component/input_outline_button.dart';
